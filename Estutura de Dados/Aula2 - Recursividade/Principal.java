@@ -1,14 +1,14 @@
 /*
 Exercicios
 
-1 – Criar um método que calcula a sequência de Fibonacci de forma recursiva, ou seja, não pode usar estrutura de repetição.
+1 â€“ Criar um mÃ©todo que calcula a sequÃªncia de Fibonacci de forma recursiva, ou seja, nÃ£o pode usar estrutura de repetiÃ§Ã£o.
 
-2 – Criar um método que calcula a potência de forma recursiva, ou seja, não pode usar estrutura de repetição.
+2 â€“ Criar um mÃ©todo que calcula a potÃªncia de forma recursiva, ou seja, nÃ£o pode usar estrutura de repetiÃ§Ã£o.
 
-3 – Criar um método que calcula o somatório dos elementos de um array de forma recursiva, ou seja, não pode usar
-estrutura de repetição.
+3 â€“ Criar um mÃ©todo que calcula o somatÃ³rio dos elementos de um array de forma recursiva, ou seja, nÃ£o pode usar
+estrutura de repetiÃ§Ã£o.
 
-4 – Criar um método que obtém o maior valor de um array de forma recursiva, ou seja, não pode usar estrutura de repetição.
+4 â€“ Criar um mÃ©todo que obtÃ©m o maior valor de um array de forma recursiva, ou seja, nÃ£o pode usar estrutura de repetiÃ§Ã£o.
 
 */
 
@@ -46,11 +46,11 @@ public class Principal {
 	}
 	
 	public static int soma(int i) {
-		return 1;
+		return 1;			//	!
 		}
 	
 	public static int maiorValor(){
-		return 1;
+		return 1;			//	!
 	}
 	
 	
