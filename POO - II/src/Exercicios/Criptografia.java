@@ -13,7 +13,7 @@ public class Criptografia {
 	System.out.println("Digite os numeros a serem criptografados: ");
 	 senha = leitor.nextInt();
 	
-	//Separar os numeros;
+	//Separar os numeros;                            !404!
 	 
 	 separa = String.valueOf(senha).toCharArray();
 	 
