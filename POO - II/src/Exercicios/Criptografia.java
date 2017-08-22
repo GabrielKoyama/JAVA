@@ -33,3 +33,31 @@ public class Criptografia {
 	 System.out.printf("%d%d%d%d",senha3, senha4, senha1, senha2);
 	  
 	}
+	
+	
+	void descriptografa(){
+		int senha, senha1, senha2, senha3, senha4;
+		
+		Scanner ler = new Scanner(System.in);
+		
+		System.out.println("Digite o numero que deseja descriptografar: ");
+		senha = ler.nextInt();
+		
+		//separa
+		 senha1 = senha/1000;
+		 senha2 = (senha%1000)/100;
+		 senha3 = (senha%100)/10;
+		 senha4 = senha%10;
+		
+		//descriptografa
+		 senha1 = ((senha1 + 10)-7)%10;
+		 senha2 = ((senha2 + 10)-7)%10;
+		 senha3 = ((senha3 + 10)-7)%10;
+		 senha4 = ((senha4 + 10)-7)%10;
+		
+		 System.out.printf("%d%d%d%d", senha3, senha4, senha1, senha2);
+		
+	}
+	
+	
+}
